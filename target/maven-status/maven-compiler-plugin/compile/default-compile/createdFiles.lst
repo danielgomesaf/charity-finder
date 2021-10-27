@@ -1,0 +1,5 @@
+com\charityfinder\entity\Country.class
+com\charityfinder\entity\Organization.class
+com\charityfinder\config\MySpringMvcDispatcherServletInitializer.class
+com\charityfinder\entity\OrganizationAddress.class
+com\charityfinder\config\CharityFinderAppConfig.class
