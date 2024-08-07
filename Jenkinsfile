@@ -1,13 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('Git-Checkout') {
-            steps {
-                echo "Checking out from git repo";
-                git credentialsId: 'ea84d5c4-ccbb-4d19-90d6-8fe77bb5ebae', url: 'https://github.com/danielgomesaf/charity-finder.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo "Building the checked-out project";
